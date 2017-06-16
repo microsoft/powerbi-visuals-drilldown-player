@@ -1,0 +1,27 @@
+{
+  "visual": {
+    "name": "drilldownPlayer",
+    "displayName": "Drilldown player",
+    "guid": "autoplayDA5FE8841B1E49D387F8B6A575144547",
+    "visualClassName": "Visual",
+    "version": "1.0.0",
+    "description": "Auto play helps to turn reports into auto slicer mode or presentation mode without user interacting manually. It is dynamic slicer performing animations on other visual of the report. It has controls like Play, Pause, Stop, Next strep and previous step and more.",
+    "supportUrl": "https://aka.ms/customvisualscommunity",
+    "gitHubUrl": "https://github.com/Microsoft/powerbi-visuals-drilldown-player"
+  },
+  "apiVersion": "1.6.0",
+  "author": {
+    "name": "Microsoft",
+    "email": "pbicvsupport@microsoft.com"
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": [
+    "node_modules/d3/d3.js"
+  ],
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": "dependencies.json",
+  "stringResources": []
+}
