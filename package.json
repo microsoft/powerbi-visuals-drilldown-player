@@ -1,0 +1,32 @@
+{
+  "name": "powerbi-visuals-drilldown-player",
+  "version": "1.0.0",
+  "description": "Auto play helps to turn reports into auto slicer mode or presentation mode without user interacting manually. It is dynamic slicer performing animations on other visual of the report. It has controls like Play, Pause, Stop, Next strep and previous step and more.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Microsoft/powerbi-visuals-drilldown-player.git"
+  },
+  "keywords": [
+    "powerbi-visuals"
+  ],
+  "author": {
+    "name": "Microsoft",
+    "email": "pbicvsupport@microsoft.com"
+  },
+  "scripts": {
+    "postinstall": "pbiviz update 1.6.0",
+    "pbiviz": "pbiviz",
+    "start": "pbiviz start",
+    "package": "pbiviz package"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Microsoft/powerbi-visuals-drilldown-player/issues"
+  },
+  "homepage": "https://github.com/Microsoft/powerbi-visuals-drilldown-player#readme",
+  "dependencies": {
+    "@types/d3": "3.5.36",
+    "d3": "3.5.17",
+    "powerbi-visuals-tools": "1.7.0"
+  }
+}

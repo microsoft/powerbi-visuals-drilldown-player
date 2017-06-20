@@ -1,0 +1,150 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Category",
+            "name": "category",
+            "kind": "Grouping"
+        }
+    ],
+    "dataViewMappings": [
+        {
+            "categorical": {
+                "categories": {
+                    "for": {
+                        "in": "category"
+                    }
+                }
+            }
+        }
+    ],
+    "objects": {
+        "transitionSettings": {
+            "displayName": "Animation Options",
+            "properties": {
+                "autoStart": {
+                    "displayName": "Auto Play",
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "loop": {
+                    "displayName": "Continuous Loop",
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "timeInterval": {
+                    "displayName": "Time in seconds",
+                    "type": {
+                        "integer": true
+                    }
+                }
+            }
+        },
+        "colorSelector": {
+            "displayName": "Control Colors",
+            "properties": {
+                "pickedColor": {
+                    "displayName": "Default Color",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "showAll": {
+                    "displayName": "Show all",
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "playColor": {
+                    "displayName": "Play",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "pauseColor": {
+                    "displayName": "Pause",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "stopColor": {
+                    "displayName": "Stop",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "previousColor": {
+                    "displayName": "Previous",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "nextColor": {
+                    "displayName": "Next",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "captionSettings": {
+            "displayName": "Enable Caption",
+            "properties": {
+                "show": {
+                    "displayName": "Show",
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "captionColor": {
+                    "displayName": "Color",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "fontSize": {
+                    "displayName": "Text size",
+                    "type": {
+                        "formatting": {
+                            "fontSize": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "drilldown": {
+        "roles": [
+            "category"
+        ]
+    }
+}
