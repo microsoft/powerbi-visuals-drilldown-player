@@ -22,6 +22,7 @@
  *  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  *  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  *  THE SOFTWARE.
+ *  Attribution: Original Source code from: https://github.com/mprozil/PlayAxis
  */
 
 module powerbi.extensibility.visual {
