@@ -15,10 +15,8 @@ A political campaign or other team can then use a report page as a continually-c
 
 This visual was built in conjunction with our partner [Gramener](http://gramener.com).
 
-**Attribution**
-This component is customised version of [PlayAxis](https://store.office.com/en-001/app.aspx?assetid=WA104380981&sourcecorrid=0e263436-a328-4060-93a1-e4d4229a0fcd&searchapppos=8&ui=en-US&rs=en-001&ad=US&appredirect=false).
-
-Thanks to MPROZIL for the original source code. https://github.com/mprozil/PlayAxis
+**Attribution: **
+This component is customised version of [PlayAxis](https://store.office.com/en-001/app.aspx?assetid=WA104380981&sourcecorrid=0e263436-a328-4060-93a1-e4d4229a0fcd&searchapppos=8&ui=en-US&rs=en-001&ad=US&appredirect=false). Thanks to MPROZIL for the original source code. https://github.com/mprozil/PlayAxis
 
 # Contributing
 
